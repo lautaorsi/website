@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Lautaro Orsi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="name-tag">Lautaro Orsi</div>
+  <div class="hint">click a node to explore</div>
+
+  <div id="graph">
+    <svg id="lines"></svg>
+  </div>
+
+  <div id="panel">
+    <div class="panel-header">
+      <h1 class="panel-title" id="panel-title"></h1>
+      <button class="back-btn" id="panel-back-btn">← Back</button>
+    </div>
+    <div class="panel-body" id="panel-body"></div>
+  </div>
+
+  <div id="card-modal-overlay">
+    <div id="card-modal">
+      <button class="modal-close" id="modal-close-btn">✕</button>
+      <div class="modal-meta" id="modal-meta"></div>
+      <div class="modal-title" id="modal-title"></div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-tags" id="modal-tags"></div>
+      <a id="modal-link-btn" class="modal-link-btn" target="_blank" style="display: none;"></a>
+    </div>
+  </div>
+
+  <div id="tech-overlay">
+    <div id="tech-header">
+      <div id="tech-title-wrap">
+        <span id="tech-tag-badge"></span>
+        <span id="tech-subtitle">used in</span>
+      </div>
+      <button class="back-btn" id="tech-back-btn">← Back</button>
+    </div>
+    <div id="tech-canvas-wrap">
+      <svg id="tech-svg"></svg>
+    </div>
+  </div>
+
+  <div class="tooltip" id="tooltip"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
