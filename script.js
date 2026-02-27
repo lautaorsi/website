@@ -182,7 +182,7 @@ function renderGraph() {
     el.style.left = pos[n.id].x + 'px'; el.style.top  = pos[n.id].y + 'px';
     if (n.isCenter) {
       el.innerHTML = `<div class="node-circle"><span class="node-label">${n.label}</span><span class="node-hint">View CV</span></div>`;
-      el.addEventListener('click', () => window.open('your-cv.pdf', '_blank'));
+      el.addEventListener('click', () => window.open('CV_ORSI_es_website.pdf', '_blank'));
     } else {
       el.innerHTML = `<div class="node-circle"><span class="node-label">${n.label}</span></div>`;
       el.addEventListener('click', () => openPanel(n.id));
