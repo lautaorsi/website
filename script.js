@@ -30,9 +30,11 @@ const CONTENT_ES = {
     { title:'WhatsApp Scraper', meta:'Data Analysis', body:'Pequeño proyecto que scrappea chats entre dos o mas usuarios para generar estadisticas y datos relevantes de las conversaciónes.', tags:['Python','Regex','MatPlotLib'], link:'https://github.com/lautaorsi/pet-finder' ,linkText:'Ver Repositorio'},
   ]},
   courses: { title:'Cursos', cards:[
-    { title:'Linux for Developers', meta:'General', body:'Curso inicial de Linux.', tags:['Linux'], title:"Certificado", linkText:"https://coursera.org/share/593ba8abb4b3be969cb2f59fd431daeb" },
-    { title:'Linux Server Management and Security', meta:'Ciberseguridad', body:'Curso de seguridad en Linux.', tags:['OS','SQL','Databases'],title:"Certificado", linkText:"https://coursera.org/share/6770bf6fd701df4d06230ef2fdd019a2" },
-    { title:'Introduction to Databases', meta:'General', body:'Curso inicial de Bases de Datos.', tags:['SQL'], title:"Certificado", linkText:"https://coursera.org/share/934b732b8048ae9f5b41a90240926343" },
+    {title: 'Google Cybersecurity Specialization', meta:'Ciberseguridad', body:'Curso avanzado de ciberseguridad tecnica y social', tags:['SQL', 'Windows', 'Linux', 'Python'], linkText:'Certificado',link:'https://coursera.org/share/41252cb4dd4065a9dff247dd972faa0d'},
+    { title:'Linux for Developers', meta:'General', body:'Curso inicial de Linux.', tags:['Linux'], linkText:"Certificado", link:"https://coursera.org/share/593ba8abb4b3be969cb2f59fd431daeb" },
+    { title:'Linux Server Management and Security', meta:'Ciberseguridad', body:'Curso de seguridad en Linux.', tags:['OS','SQL','Databases'],linkText:"Certificado", link:"https://coursera.org/share/6770bf6fd701df4d06230ef2fdd019a2" },
+    { title: 'API Development and Architecture', meta:'API`s', body: 'Curso de APIs, testing y arquitectura', tags:['Python','Flask','Postman','API'],linkText:'Ir a Repositorio',link:'https://github.com/lautaorsi/API-Course'},
+    { title:'Introduction to Databases', meta:'General', body:'Curso inicial de Bases de Datos.', tags:['SQL'], linkText:"Certificado", link:"https://coursera.org/share/934b732b8048ae9f5b41a90240926343" },
   ]},
   skills: { title:'Habilidades', cards:[
     { title:'Lenguajes', meta:'Programacion', body:'', tags:['C++','Python','Assembly','JavaScript','Java','C'] },
