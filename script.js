@@ -182,13 +182,13 @@ function renderGraph() {
     el.className = 'node' + (n.isCenter ? ' center' : '');
     el.style.left = pos[n.id].x + 'px'; el.style.top  = pos[n.id].y + 'px';
     if (n.isCenter) {
-      el.innerHTML = `<div class="node-circle"><span class="node-label">${n.label}</span><span class="node-hint">View CV</span></div>`;
+      el.innerHTML = `<div class="node-circle"><span class="node-label">${n.label}</span><span class="node-hint">Ver CV</span></div>`;
       el.addEventListener('click', () => window.open('CV_ORSI_es_website.pdf', '_blank'));
     } else {
       el.innerHTML = `<div class="node-circle"><span class="node-label">${n.label}</span></div>`;
       el.addEventListener('click', () => openPanel(n.id));
     }
-    el.addEventListener('mouseenter', e => showTooltip(e, n.isCenter ? 'Open CV' : `Open ${n.label}`));
+    el.addEventListener('mouseenter', e => showTooltip(e, n.isCenter ? 'Entrar a CV' : `Entrar a ${n.label}`));
     el.addEventListener('mousemove', moveTooltip);
     el.addEventListener('mouseleave', hideTooltip);
     graphEl.appendChild(el);
