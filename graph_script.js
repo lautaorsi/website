@@ -1,3 +1,5 @@
+import { CONTENT } from './content.js';
+
 
 const ICONS = {
   
@@ -26,40 +28,6 @@ const ICONS = {
     <svg xmlns="http://www.w3.org/2000/svg" width=".8em" height=".8em" viewBox="0 0 32 32"><path fill="currentColor" d="M27.26 27.271h-4.733v-7.427c0-1.771-.037-4.047-2.475-4.047c-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739V11.999h4.552v2.083h.061c.636-1.203 2.183-2.468 4.491-2.468c4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912a2.75 2.75 0 0 1-2.751-2.756a2.753 2.753 0 1 1 2.751 2.756m2.374 17.359H4.74V12h4.749zM29.636 0H2.36C1.057 0 0 1.031 0 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307V2.307C32 1.031 30.932 0 29.631 0z"/></svg>
     `
 };
-
-const CONTENT = {
-  about: { title:'Sobre Mi', cards:[
-    { title:'Perfil', meta:'Introduccion', body:"Soy un estudiante de 4to año en la carrera de Ciencias de la Computación, UBA. Estoy interesado en el desarrollo backend, bases de datos y ciberseguridad. A lo largo de mis estudios fui aprendiendo múltiples soft-skills relacionadas a las buenas prácticas de desarrollo de código y teorias relacionadas con el análisis de complejidades de algoritmos, estructuras de datos y comportamientos en bajo nivel de los programas y computadoras.", tags:['CS','Backend'] },
-    { title:'Idiomas', meta:'Comunicacion', body:"Español Nativo, Ingles Avanzado (C2).", tags:[] },
-  ]},
-  academic: { title:'Academic', cards:[
-    { title:'Licenciatura en Ciencias de la Computacion', meta:'Universidad de Buenos Aires · 2022–2027', body:'Actualmente en 4to año con 11/19 materias regularizadas.', tags:['UBA','Analisis 1','Algebra Lineal Computacional','Sistemas Operativos','Lenguajes Formales, Automatas y Computabilidad','Algebra 1','Introduccion a la Programacion','Algoritmos y Estructuras de Datos','Tecnicas de Diseño de Algoritmos','Sistemas Digitales','Paradigmas de la Programacion','Ingenieria del Software','Arquitectura y Organizacion de Computadores'] },
-    { title:'Bachiller en Ciencias de la Computacion', meta:'UBA · Completado', body:'Titulo intermedio de la Licenciatura en Ciencias de la Computacion. Promedio 7.25.', tags:['UBA','Algebra 1','Introduccion a la Programacion','Algoritmos y Estructuras de Datos','Tecnicas de Diseño de Algoritmos','Sistemas Digitales','Paradigmas de la Programacion','Ingenieria del Software','Arquitectura y Organizacion de Computadores'] },
-    { title:'Secundaria', meta:'Carlos Pellegrini · 2017–2022', body:'Promedio 7.50. Especialización en Economía.', tags:[] },
-  ]},
-  projects: { title:'Proyectos', cards:[
-    { title:'Pet Finder App', meta:'Mobile Development', body:'App dinamica para encontrar mascotas perdidas utilizando sistemas de autenticación de solicitudes (JWT), creación de cuentas y comunicación con un servidor y base de datos (MongoDB), usando Docker-Compose para aislar el entorno de desarrollo..', tags:['React Native','Express','MongoDB','Docker','JWT'], link:'https://github.com/lautaorsi/pet-finder', linkText:'Ver Repositorio' },
-    { title:'Videojuego Online Geografía', meta:'Multiplayer', body:'Juego online de geografía, empleando distintas API`s, tecnicas anti-exploits y mantenimiento del servidor.', tags:['Node.js','Socket.io','Leaflet','Javascript'], link:'https://github.com/lautaorsi/pet-finder' ,linkText:'Ver Repositorio'},
-    { title:'WhatsApp Scraper', meta:'Data Analysis', body:'Pequeño proyecto que scrappea chats entre dos o mas usuarios para generar estadisticas y datos relevantes de las conversaciónes.', tags:['Python','Regex','MatPlotLib'], link:'https://github.com/lautaorsi/pet-finder' ,linkText:'Ver Repositorio'},
-  ]},
-  courses: { title:'Cursos', cards:[
-    { title: 'Machine Learning with Python', meta:'Machine Learning', body:'Curso aplicado de Machine Learning de IBM (en curso)', tags:['Python','Machine Learning'], linkText:'Ir al repositorio', link:'https://github.com/lautaorsi/AI-IBM-COURSE'},
-    {title:'Google Cybersecurity Specialization', meta:'Ciberseguridad', body:'Curso de ciberseguridad teorico y practico', tags:['Linux','SQL','Python','Windows'], linkText:'Certificado', link:'https://coursera.org/share/a733688561956f4471289add8737c8f0'},
-    { title:'Linux for Developers', meta:'General', body:'Curso inicial de Linux.', tags:['Linux'], linkText:"Certificado", link:"https://coursera.org/share/593ba8abb4b3be969cb2f59fd431daeb" },
-    { title:'Linux Server Management and Security', meta:'Ciberseguridad', body:'Curso de seguridad en Linux.', tags:['OS','SQL','Databases'],linkText:"Certificado", link:"https://coursera.org/share/6770bf6fd701df4d06230ef2fdd019a2" },
-    { title:'Introduction to Databases', meta:'General', body:'Curso inicial de Bases de Datos.', tags:['SQL'], linkText:"Certificado", link:"https://coursera.org/share/934b732b8048ae9f5b41a90240926343" },
-  ]},
-  skills: { title:'Habilidades', cards:[
-    { title:'Lenguajes', meta:'Programacion', body:'', tags:['C++','Python','Assembly','JavaScript','Java','C'] },
-    { title:'Frameworks & Tools', meta:'Ecosistema', body:'', tags:['Docker','Git','Node.js','SQL','React Native','Expo Go','MongoDB','Django'] },
-  ]},
-  contact: { title:'Contacto & Links', cards:[
-    { title:'Email', meta:'Contacto', body:'lautaromorsi [at] gmail com', tags:['Contact'] },
-    { title:'Github', meta:'Repositorios', body:'github.com/lautaorsi', tags:['Personal'], link:'https://www.github.com/lautaorsi', linkText:"Ir a Github" },
-    { title:'Linkedin', meta:'Social', body:'linkedin.com/in/lautaro-orsi ', tags:['Profesional'], link:'https://linkedin.com/in/lautaro-orsi', linkText:'Ver Perfil' },
-  ]},
-};
-
 
 
 
@@ -121,8 +89,21 @@ function drawBg() {
 const graphEl = document.getElementById('graph');
 const linesEl = document.getElementById('lines');
 
+// Width reserved for the feed panel (feed width 290px + 1.5rem*2 gap ≈ 320px)
+const FEED_RESERVED = 320;
+const FEED_MIN_SCREEN = 1000; // px — hide feed below this width
+
 function renderGraph() {
-  const W = window.innerWidth, H = window.innerHeight;
+  const screenW = window.innerWidth, H = window.innerHeight;
+  const feedEl = document.getElementById('github-feed');
+
+  // Toggle feed visibility based on available space
+  const showFeed = screenW >= FEED_MIN_SCREEN;
+  if (feedEl) feedEl.style.display = showFeed ? 'flex' : 'none';
+
+  // Graph nodes are positioned within the left portion when feed is shown
+  const W = showFeed ? screenW - FEED_RESERVED : screenW;
+
   const pos = {};
   graphEl.querySelectorAll('.node').forEach(n => n.remove());
   linesEl.innerHTML = '';
@@ -163,31 +144,7 @@ function renderGraph() {
   });
 }
 
-// -------------------------------------------------------
-// PANEL
-// -------------------------------------------------------
-function openPanel(id) {
-  const section = CONTENT[id];
-  if (!section) return;
 
-  document.getElementById('panel-title').innerText = section.title;
-  const body = document.getElementById('panel-body');
-
-  body.innerHTML = section.cards.map((c, i) => `
-    <div class="card" onclick="openModal('${id}', ${i})">
-      ${c.meta ? `<div class="card-meta">${c.meta}</div>` : ''}
-      <div class="card-title">${c.title}</div>
-      ${c.body ? `<div class="card-body">${c.body}</div>` : ''}
-      ${c.tags && c.tags.length ? `
-        <div class="card-tags">
-          ${c.tags.map(t => `<span class="tag">${t}</span>`).join('')}
-        </div>` : ''}
-    </div>
-  `).join('');
-
-  document.getElementById('panel').classList.add('active');
-  graphEl.style.opacity = '0.07';
-}
 
 // -------------------------------------------------------
 // MODAL
@@ -219,6 +176,78 @@ function openModal(sectionId, cardIndex) {
 
   document.getElementById('card-modal-overlay').classList.add('active');
 }
+
+window.openModal = openModal;
+
+
+
+// -------------------------------------------------------
+// PANEL
+// -------------------------------------------------------
+function openPanel(id) {
+  const section = CONTENT[id];
+  if (!section) return;
+
+  document.getElementById('panel-title').innerText = section.title;
+  const body = document.getElementById('panel-body');
+
+  body.innerHTML = section.cards.map((c, i) => `
+    <div class="card" onclick="openModal('${id}', ${i})">
+      ${c.meta ? `<div class="card-meta">${c.meta}</div>` : ''}
+      <div class="card-title">${c.title}</div>
+      ${c.body ? `<div class="card-body">${c.body}</div>` : ''}
+      ${c.tags && c.tags.length ? `
+        <div class="card-tags">
+          ${c.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+        </div>` : ''}
+    </div>
+  `).join('');
+
+  document.getElementById('panel').classList.add('active');
+  graphEl.style.opacity = '0.07';
+}
+
+
+
+async function loadGithubFeed() {
+  const listEl = document.getElementById('feed-list');
+  if (!listEl) return;
+
+  function timeAgo(dateStr) {
+    const diff = (Date.now() - new Date(dateStr)) / 1000;
+    if (diff < 60)      return 'just now';
+    if (diff < 3600)    return `${Math.floor(diff / 60)}m ago`;
+    if (diff < 86400)   return `${Math.floor(diff / 3600)}h ago`;
+    if (diff < 2592000) return `${Math.floor(diff / 86400)}d ago`;
+    return `${Math.floor(diff / 2592000)}mo ago`;
+  }
+
+  try {
+    const res = await fetch('./github-activity.json'); 
+    
+    if (!res.ok) throw new Error('Feed data not found');
+    const commits = await res.json();
+
+    if (commits.length === 0) {
+      listEl.innerHTML = `<div class="feed-empty">No recent commits found.</div>`;
+      return;
+    }
+
+    listEl.innerHTML = commits.map(c => `
+      <a class="feed-item" href="${c.url}" target="_blank" rel="noopener">
+        <div class="feed-repo"><strong>${c.repo}</strong></div>
+        <div class="feed-msg">${c.message}</div>
+        <div class="feed-time">${timeAgo(c.date)}</div>
+      </a>
+    `).join('');
+
+  } catch (err) {
+    listEl.innerHTML = `<div class="feed-error">Failed to load feed.</div>`;
+    console.error('Local feed error:', err);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadGithubFeed);
 
 // -------------------------------------------------------
 // EVENTS
