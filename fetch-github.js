@@ -1,10 +1,9 @@
 const fs = require('fs');
 const https = require('https');
 
-// Helper to fetch the Atom feed without external dependencies
-function fetchAtom(url) {
+function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
+    https.get(url, { headers: { 'User-Agent': 'Node-Action' } }, (res) => {
       let data = '';
       res.on('data', (chunk) => data += chunk);
       res.on('end', () => resolve(data));
@@ -13,26 +12,29 @@ function fetchAtom(url) {
 }
 
 async function fetchFeed() {
-  const USERNAME = 'lautaorsi';
-  const xml = await fetchAtom(`https://github.com/${USERNAME}.atom`);
+  const xml = await fetchUrl('https://github.com/lautaorsi.atom');
   
-  // Basic Regex parsing to get the info we need from the XML string
-  const entries = xml.match(/<entry>([\s\S]*?)<\/entry>/g) || [];
-  const activity = entries.slice(0, 10).map(entry => {
-    const title = entry.match(/<title>(.*?)<\/title>/)[1];
-    const link = entry.match(/href="(.*?)"/)[1];
-    const date = entry.match(/<updated>(.*?)<\/updated>/)[1];
+  // Split the feed into individual <entry> blocks
+  const entries = xml.split('<entry>').slice(1);
+  
+  const activity = entries.map(entry => {
+    const title = entry.split('<title type="html">')[1].split('</title>')[0];
+    const link = entry.split('rel="alternate" href="')[1].split('"')[0];
+    const date = entry.split('<published>')[1].split('</published>')[0];
     
-    // Clean up the title (e.g., "lautaorsi pushed to main in lautaorsi/repo")
+    // Extract commit message from blockquote
+    const msgMatch = entry.match(/<blockquote>\s*(.*?)\s*<\/blockquote>/s);
+    const message = msgMatch ? msgMatch[1] : 'No message';
+
     return {
-      repo: title.split(' in ')[1] || 'unknown',
-      message: title.replace(/<!\[CDATA\[|\]\]>/g, ''), // Strip XML CDATA
+      repo: title.replace('lautaorsi pushed ', ''),
+      message: message,
       date: date,
       url: link
     };
-  }).filter(item => item.message.includes('pushed'));
+  }).filter(item => item.repo !== 'website'); // Optional: exclude this repo itself
 
-  fs.writeFileSync('github-activity.json', JSON.stringify(activity, null, 2));
+  fs.writeFileSync('github-activity.json', JSON.stringify(activity.slice(0, 10), 2, 2));
 }
 
-fetchFeed();
+fetchFeed().catch(err => { console.error(err); process.exit(1); });
