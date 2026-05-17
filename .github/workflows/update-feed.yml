@@ -2,14 +2,14 @@ name: Update GitHub Activity Feed
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs automatically at the top of every hour
-  workflow_dispatch: # Adds a button so you can run it manually in the Actions tab
+    - cron: '0 * * * *' 
+  workflow_dispatch: 
 
 jobs:
   update-feed:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed so the Action can commit the file
+      contents: write 
 
     steps:
       - name: Checkout repository
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24' # Updated to remove the deprecation warning
 
       - name: Fetch Data
         env:
@@ -30,5 +30,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add github-activity.json
-          # Only commit if the data actually changed
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update github activity feed" && git push)
