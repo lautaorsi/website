@@ -9,7 +9,7 @@ jobs:
   update-feed:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write # This is strictly required for the auto-commit action
 
     steps:
       - name: Checkout repository
@@ -18,16 +18,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # Updated to remove the deprecation warning
+          node-version: '24'
 
       - name: Fetch Data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node fetch-github.js
 
+      # This replaces the manual git commands and safely handles the push
       - name: Commit and Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add github-activity.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update github activity feed" && git push)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update github activity feed"
+          file_pattern: "github-activity.json"
