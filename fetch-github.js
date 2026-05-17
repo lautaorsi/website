@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 async function fetchFeed() {
-  const USERNAME = 'lautaroorsi';
+  const USERNAME = 'lautaorsi';
   // IMPORTANT: Change this path if your static files live in a specific folder like 'public/' or 'dist/'
   const OUTPUT_FILE = 'github-activity.json'; 
   
