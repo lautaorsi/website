@@ -23,7 +23,14 @@ async function fetchFeed() {
     const date = entry.split('<published>')[1].split('</published>')[0];
     
     // Extract commit message from blockquote
-    const msgMatch = entry.match(/<blockquote>\s*(.*?)\s*<\/blockquote>/s);
+    // 1. Get the content part
+    let content = entry.split('<content type="html">')[1].split('</content>')[0];
+
+    // 2. Decode HTML entities (replace &lt; with <, etc.)
+    content = content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+
+    // 3. Extract the message from inside the blockquote
+    const msgMatch = content.match(/<blockquote>\s*(.*?)\s*<\/blockquote>/s);
     const message = msgMatch ? msgMatch[1] : 'No message';
 
     return {
