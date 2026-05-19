@@ -1,6 +1,24 @@
 [
   {
     "repo": "AI-IBM-COURSE",
+    "message": "Modified gitignore to ignore datasets",
+    "date": "2026-05-19 20:14:49 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/a3a534e8b2...1885846a23"
+  },
+  {
+    "repo": "AI-IBM-COURSE",
+    "message": "Added transfer learning notebook",
+    "date": "2026-05-19 20:13:42 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/9ffae68bf6...a3a534e8b2"
+  },
+  {
+    "repo": "AI-IBM-COURSE",
+    "message": "Added advanced CNN README",
+    "date": "2026-05-19 19:09:54 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/860f7b9219...9ffae68bf6"
+  },
+  {
+    "repo": "AI-IBM-COURSE",
     "message": "Added custom layers explanation",
     "date": "2026-05-15 03:12:00 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/56ebefc773...860f7b9219"
@@ -40,23 +58,5 @@
     "message": "Update README.md",
     "date": "2026-05-10 23:38:35 UTC",
     "url": "https://github.com/lautaorsi/lautaorsi/compare/2995372e39...7064d9f4b8"
-  },
-  {
-    "repo": "lautaorsi",
-    "message": "Update README.md",
-    "date": "2026-05-10 23:38:18 UTC",
-    "url": "https://github.com/lautaorsi/lautaorsi/compare/5a744ad9f3...2995372e39"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Readme update",
-    "date": "2026-05-07 15:09:53 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/f86796fa27...4ede76418b"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Fixed formatting issue",
-    "date": "2026-05-07 15:03:27 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/b4d42a3bf6...f86796fa27"
   }
 ]
