@@ -1,5 +1,11 @@
 [
   {
+    "repo": "API-Course",
+    "message": "GraphQL readme",
+    "date": "2026-05-20 14:41:52 UTC",
+    "url": "https://github.com/lautaorsi/API-Course/compare/3e48f709f7...634a4ff05e"
+  },
+  {
     "repo": "AI-IBM-COURSE",
     "message": "Worked on Transpose Convolutional Layers",
     "date": "2026-05-20 00:46:17 UTC",
@@ -52,11 +58,5 @@
     "message": "Added graph figure",
     "date": "2026-05-11 01:29:07 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/4ede76418b...212441b92f"
-  },
-  {
-    "repo": "lautaorsi created a branch",
-    "message": "No message",
-    "date": "2026-05-10 23:40:40 UTC",
-    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/0000000000...2b50cb0157"
   }
 ]
