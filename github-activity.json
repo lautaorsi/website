@@ -1,5 +1,17 @@
 [
   {
+    "repo": "ibm-data-engineering",
+    "message": "Removed .venv files from repo",
+    "date": "2026-05-22 23:15:47 UTC",
+    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/ceeaeff8a6...42747e5707"
+  },
+  {
+    "repo": "ibm-data-engineering",
+    "message": "Added gitignore",
+    "date": "2026-05-22 23:12:54 UTC",
+    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/2b50cb0157...ceeaeff8a6"
+  },
+  {
     "repo": "API-Course",
     "message": "Worked on Microservices explanation",
     "date": "2026-05-21 19:09:47 UTC",
@@ -46,17 +58,5 @@
     "message": "Added functional api introduction",
     "date": "2026-05-15 00:02:16 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/6b8919dd9e...56ebefc773"
-  },
-  {
-    "repo": "API-Course",
-    "message": ".",
-    "date": "2026-05-14 23:53:43 UTC",
-    "url": "https://github.com/lautaorsi/API-Course/compare/e65718fb4f...3e48f709f7"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Worked on advanced keras",
-    "date": "2026-05-14 04:41:04 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/212441b92f...6b8919dd9e"
   }
 ]
