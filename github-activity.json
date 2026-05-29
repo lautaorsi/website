@@ -1,6 +1,12 @@
 [
   {
     "repo": "power-BI",
+    "message": "Finished course",
+    "date": "2026-05-29 16:12:18 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/c6ccab3d14...69ceccf2f2"
+  },
+  {
+    "repo": "power-BI",
     "message": "Added first visualization comparison",
     "date": "2026-05-29 02:18:03 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/3258dbca70...c6ccab3d14"
@@ -52,11 +58,5 @@
     "message": "Worked on Transpose Convolutional Layers",
     "date": "2026-05-20 00:46:17 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/1885846a23...19d25bec76"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Modified gitignore to ignore datasets",
-    "date": "2026-05-19 20:14:49 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/a3a534e8b2...1885846a23"
   }
 ]
