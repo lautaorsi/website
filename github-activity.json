@@ -1,5 +1,29 @@
 [
   {
+    "repo": "power-BI",
+    "message": "Added first visualization comparison",
+    "date": "2026-05-29 02:18:03 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/3258dbca70...c6ccab3d14"
+  },
+  {
+    "repo": "power-BI",
+    "message": "Fixed gitignore typo, ups",
+    "date": "2026-05-29 01:22:56 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/3f4ddf51b1...3258dbca70"
+  },
+  {
+    "repo": "power-BI",
+    "message": "Added .gitignore",
+    "date": "2026-05-29 01:22:16 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/3ebd540c73...3f4ddf51b1"
+  },
+  {
+    "repo": "lautaorsi created a branch",
+    "message": "No message",
+    "date": "2026-05-29 01:14:07 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/0000000000...3ebd540c73"
+  },
+  {
     "repo": "ibm-data-engineering",
     "message": "Removed .venv files from repo",
     "date": "2026-05-22 23:15:47 UTC",
@@ -34,29 +58,5 @@
     "message": "Modified gitignore to ignore datasets",
     "date": "2026-05-19 20:14:49 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/a3a534e8b2...1885846a23"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added transfer learning notebook",
-    "date": "2026-05-19 20:13:42 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/9ffae68bf6...a3a534e8b2"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added advanced CNN README",
-    "date": "2026-05-19 19:09:54 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/860f7b9219...9ffae68bf6"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added custom layers explanation",
-    "date": "2026-05-15 03:12:00 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/56ebefc773...860f7b9219"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added functional api introduction",
-    "date": "2026-05-15 00:02:16 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/6b8919dd9e...56ebefc773"
   }
 ]
