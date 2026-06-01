@@ -1,6 +1,12 @@
 [
   {
     "repo": "power-BI",
+    "message": "Added storage modes and triggers explanation",
+    "date": "2026-06-01 19:59:14 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/69ceccf2f2...6a240ea709"
+  },
+  {
+    "repo": "power-BI",
     "message": "Finished course",
     "date": "2026-05-29 16:12:18 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/c6ccab3d14...69ceccf2f2"
@@ -52,11 +58,5 @@
     "message": "GraphQL readme",
     "date": "2026-05-20 14:41:52 UTC",
     "url": "https://github.com/lautaorsi/API-Course/compare/3e48f709f7...634a4ff05e"
-  },
-  {
-    "repo": "AI-IBM-COURSE",
-    "message": "Worked on Transpose Convolutional Layers",
-    "date": "2026-05-20 00:46:17 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/1885846a23...19d25bec76"
   }
 ]
