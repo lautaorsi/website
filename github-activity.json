@@ -1,6 +1,12 @@
 [
   {
     "repo": "power-BI",
+    "message": "Added Append, Merge and Join operations",
+    "date": "2026-06-02 12:07:30 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/6a240ea709...c38a10b6d4"
+  },
+  {
+    "repo": "power-BI",
     "message": "Added storage modes and triggers explanation",
     "date": "2026-06-01 19:59:14 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/69ceccf2f2...6a240ea709"
@@ -52,11 +58,5 @@
     "message": "Worked on Microservices explanation",
     "date": "2026-05-21 19:09:47 UTC",
     "url": "https://github.com/lautaorsi/API-Course/compare/634a4ff05e...a7b3d2e0b7"
-  },
-  {
-    "repo": "API-Course",
-    "message": "GraphQL readme",
-    "date": "2026-05-20 14:41:52 UTC",
-    "url": "https://github.com/lautaorsi/API-Course/compare/3e48f709f7...634a4ff05e"
   }
 ]
