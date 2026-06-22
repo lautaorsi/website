@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "Honestly I did too many stuff to do a clean commit message",
+    "date": "2026-06-22 12:49:15 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/b99cee29e6...b12b2d22aa"
+  },
+  {
+    "repo": "Facultad",
     "message": "Added alc tp",
     "date": "2026-06-22 12:44:28 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/498be90fd9...b99cee29e6"
@@ -52,11 +58,5 @@
     "message": "Added .gitignore",
     "date": "2026-05-29 01:22:16 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/3ebd540c73...3f4ddf51b1"
-  },
-  {
-    "repo": "lautaorsi created a branch",
-    "message": "No message",
-    "date": "2026-05-29 01:14:07 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/0000000000...3ebd540c73"
   }
 ]
