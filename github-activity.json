@@ -40,17 +40,5 @@
     "message": "No message",
     "date": "2026-05-29 01:14:07 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/0000000000...3ebd540c73"
-  },
-  {
-    "repo": "ibm-data-engineering",
-    "message": "Removed .venv files from repo",
-    "date": "2026-05-22 23:15:47 UTC",
-    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/ceeaeff8a6...42747e5707"
-  },
-  {
-    "repo": "ibm-data-engineering",
-    "message": "Added gitignore",
-    "date": "2026-05-22 23:12:54 UTC",
-    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/2b50cb0157...ceeaeff8a6"
   }
 ]
