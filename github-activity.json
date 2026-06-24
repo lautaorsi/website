@@ -1,5 +1,11 @@
 [
   {
+    "repo": "AI-IBM-COURSE",
+    "message": "Changed transformers definition",
+    "date": "2026-06-24 18:56:17 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/19d25bec76...daae6ebd88"
+  },
+  {
     "repo": "Facultad",
     "message": "Sequential Monte Carlo",
     "date": "2026-06-24 01:34:54 UTC",
@@ -52,11 +58,5 @@
     "message": "Added storage modes and triggers explanation",
     "date": "2026-06-01 19:59:14 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/69ceccf2f2...6a240ea709"
-  },
-  {
-    "repo": "power-BI",
-    "message": "Finished course",
-    "date": "2026-05-29 16:12:18 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/c6ccab3d14...69ceccf2f2"
   }
 ]
