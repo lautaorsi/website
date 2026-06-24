@@ -1,6 +1,18 @@
 [
   {
     "repo": "Facultad",
+    "message": "Sequential Monte Carlo",
+    "date": "2026-06-24 01:34:54 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/d94567a658...1e34db6075"
+  },
+  {
+    "repo": "Facultad",
+    "message": "Changed a random function I saw",
+    "date": "2026-06-24 00:18:17 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/9d195f3112...d94567a658"
+  },
+  {
+    "repo": "Facultad",
     "message": "Added ppl stuff",
     "date": "2026-06-23 20:27:11 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/b12b2d22aa...9d195f3112"
@@ -46,17 +58,5 @@
     "message": "Finished course",
     "date": "2026-05-29 16:12:18 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/c6ccab3d14...69ceccf2f2"
-  },
-  {
-    "repo": "power-BI",
-    "message": "Added first visualization comparison",
-    "date": "2026-05-29 02:18:03 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/3258dbca70...c6ccab3d14"
-  },
-  {
-    "repo": "power-BI",
-    "message": "Fixed gitignore typo, ups",
-    "date": "2026-05-29 01:22:56 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/3f4ddf51b1...3258dbca70"
   }
 ]
