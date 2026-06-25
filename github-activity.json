@@ -1,5 +1,11 @@
 [
   {
+    "repo": "Facultad",
+    "message": "Added classes",
+    "date": "2026-06-25 12:34:24 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/1e34db6075...4f3f9d0082"
+  },
+  {
     "repo": "AI-IBM-COURSE",
     "message": "Changed transformers definition",
     "date": "2026-06-24 18:56:17 UTC",
@@ -52,11 +58,5 @@
     "message": "Added Append, Merge and Join operations",
     "date": "2026-06-02 12:07:30 UTC",
     "url": "https://github.com/lautaorsi/power-BI/compare/6a240ea709...c38a10b6d4"
-  },
-  {
-    "repo": "power-BI",
-    "message": "Added storage modes and triggers explanation",
-    "date": "2026-06-01 19:59:14 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/69ceccf2f2...6a240ea709"
   }
 ]
