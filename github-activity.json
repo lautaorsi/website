@@ -1,62 +1,62 @@
 [
   {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added custom layers explanation",
-    "date": "2026-05-15 03:12:00 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/56ebefc773...860f7b9219"
+    "repo": "Facultad",
+    "message": "Added classes",
+    "date": "2026-06-25 12:34:24 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/1e34db6075...4f3f9d0082"
   },
   {
     "repo": "AI-IBM-COURSE",
-    "message": "Added functional api introduction",
-    "date": "2026-05-15 00:02:16 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/6b8919dd9e...56ebefc773"
+    "message": "Changed transformers definition",
+    "date": "2026-06-24 18:56:17 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/19d25bec76...daae6ebd88"
   },
   {
-    "repo": "API-Course",
-    "message": ".",
-    "date": "2026-05-14 23:53:43 UTC",
-    "url": "https://github.com/lautaorsi/API-Course/compare/e65718fb4f...3e48f709f7"
+    "repo": "Facultad",
+    "message": "Sequential Monte Carlo",
+    "date": "2026-06-24 01:34:54 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/d94567a658...1e34db6075"
   },
   {
-    "repo": "AI-IBM-COURSE",
-    "message": "Worked on advanced keras",
-    "date": "2026-05-14 04:41:04 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/212441b92f...6b8919dd9e"
+    "repo": "Facultad",
+    "message": "Changed a random function I saw",
+    "date": "2026-06-24 00:18:17 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/9d195f3112...d94567a658"
   },
   {
-    "repo": "AI-IBM-COURSE",
-    "message": "Added graph figure",
-    "date": "2026-05-11 01:29:07 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/4ede76418b...212441b92f"
+    "repo": "Facultad",
+    "message": "Added ppl stuff",
+    "date": "2026-06-23 20:27:11 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/b12b2d22aa...9d195f3112"
   },
   {
-    "repo": "lautaorsi created a branch",
-    "message": "No message",
-    "date": "2026-05-10 23:40:40 UTC",
-    "url": "https://github.com/lautaorsi/ibm-data-engineering/compare/0000000000...2b50cb0157"
+    "repo": "Facultad",
+    "message": "Honestly I did too many stuff to do a clean commit message",
+    "date": "2026-06-22 12:49:15 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/b99cee29e6...b12b2d22aa"
   },
   {
-    "repo": "lautaorsi",
-    "message": "Update README.md",
-    "date": "2026-05-10 23:38:35 UTC",
-    "url": "https://github.com/lautaorsi/lautaorsi/compare/2995372e39...7064d9f4b8"
+    "repo": "Facultad",
+    "message": "Added alc tp",
+    "date": "2026-06-22 12:44:28 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/498be90fd9...b99cee29e6"
   },
   {
-    "repo": "lautaorsi",
-    "message": "Update README.md",
-    "date": "2026-05-10 23:38:18 UTC",
-    "url": "https://github.com/lautaorsi/lautaorsi/compare/5a744ad9f3...2995372e39"
+    "repo": "Facultad",
+    "message": "Restructured repo",
+    "date": "2026-06-22 12:37:47 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/5fcfb157c6...498be90fd9"
   },
   {
-    "repo": "AI-IBM-COURSE",
-    "message": "Readme update",
-    "date": "2026-05-07 15:09:53 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/f86796fa27...4ede76418b"
+    "repo": "Facultad",
+    "message": "Added ppl",
+    "date": "2026-06-22 12:19:01 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/e7854a63ec...5fcfb157c6"
   },
   {
-    "repo": "AI-IBM-COURSE",
-    "message": "Fixed formatting issue",
-    "date": "2026-05-07 15:03:27 UTC",
-    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/b4d42a3bf6...f86796fa27"
+    "repo": "power-BI",
+    "message": "Added Append, Merge and Join operations",
+    "date": "2026-06-02 12:07:30 UTC",
+    "url": "https://github.com/lautaorsi/power-BI/compare/6a240ea709...c38a10b6d4"
   }
 ]
