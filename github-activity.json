@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "chapter 5 &amp; 6",
+    "date": "2026-06-26 19:47:18 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/dc7ed212b4...4174a3b266"
+  },
+  {
+    "repo": "Facultad",
     "message": "Chapter 5",
     "date": "2026-06-26 13:07:26 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/4f3f9d0082...dc7ed212b4"
@@ -52,11 +58,5 @@
     "message": "Added ppl stuff",
     "date": "2026-06-23 20:27:11 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/b12b2d22aa...9d195f3112"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Honestly I did too many stuff to do a clean commit message",
-    "date": "2026-06-22 12:49:15 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/b99cee29e6...b12b2d22aa"
   }
 ]
