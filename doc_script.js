@@ -1,6 +1,12 @@
 const REPO_OWNER = 'lautaorsi';
-const REPO_NAME  = location.hash.slice(1) || 'AI-IBM-COURSE';
+const REPO_NAME  = location.hash.slice(1);
 const BRANCH     = 'main';
+
+console.log(REPO_NAME)
+
+if(REPO_NAME == ""){
+    window.location.href = "index.html";
+}
 
 document.getElementById('site-name').innerText = REPO_NAME.replaceAll("-", " ");
 document.getElementById('repo-name').innerText = REPO_NAME.replaceAll("-", " ");
