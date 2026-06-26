@@ -1,5 +1,23 @@
 [
   {
+    "repo": "API-Course",
+    "message": "Removed duplicates",
+    "date": "2026-06-26 02:17:53 UTC",
+    "url": "https://github.com/lautaorsi/API-Course/compare/c8cbffc3de...8574deb584"
+  },
+  {
+    "repo": "API-Course",
+    "message": "Renamed course folders",
+    "date": "2026-06-26 00:32:34 UTC",
+    "url": "https://github.com/lautaorsi/API-Course/compare/a7b3d2e0b7...c8cbffc3de"
+  },
+  {
+    "repo": "AI-IBM-COURSE",
+    "message": "Started working on autoencoders",
+    "date": "2026-06-26 00:11:03 UTC",
+    "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/daae6ebd88...82b5bd5469"
+  },
+  {
     "repo": "Facultad",
     "message": "Added classes",
     "date": "2026-06-25 12:34:24 UTC",
@@ -40,23 +58,5 @@
     "message": "Added alc tp",
     "date": "2026-06-22 12:44:28 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/498be90fd9...b99cee29e6"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Restructured repo",
-    "date": "2026-06-22 12:37:47 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/5fcfb157c6...498be90fd9"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Added ppl",
-    "date": "2026-06-22 12:19:01 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/e7854a63ec...5fcfb157c6"
-  },
-  {
-    "repo": "power-BI",
-    "message": "Added Append, Merge and Join operations",
-    "date": "2026-06-02 12:07:30 UTC",
-    "url": "https://github.com/lautaorsi/power-BI/compare/6a240ea709...c38a10b6d4"
   }
 ]
