@@ -14,8 +14,9 @@ export const CONTENT = {
     { title:'WhatsApp Scraper', meta:'Data Analysis', body:'Pequeño proyecto que scrappea chats entre dos o mas usuarios para generar estadisticas y datos relevantes de las conversaciónes.', tags:['Python','Regex','MatPlotLib'], link:'https://github.com/lautaorsi/pet-finder' ,linkText:'Ver Repositorio'},
   ]},
   courses: { title:'Cursos', cards:[
-    { title: 'Machine Learning with Python', meta:'Machine Learning', body:'Curso aplicado de Machine Learning de IBM (en curso)', tags:['Python','Machine Learning'], linkText:'Ir al repositorio', link:'https://github.com/lautaorsi/AI-IBM-COURSE'},
+    { title: 'Machine Learning with Python', meta:'Machine Learning', body:'Curso aplicado de Machine Learning de IBM (en curso)', tags:['Python','Machine Learning'], docRepo: 'AI-IBM-COURSE'},
     {title:'Google Cybersecurity Specialization', meta:'Ciberseguridad', body:'Curso de ciberseguridad teorico y practico', tags:['Linux','SQL','Python','Windows'], linkText:'Certificado', link:'https://coursera.org/share/a733688561956f4471289add8737c8f0'},
+    {title: 'API Development and Architecture', meta:"APIs", body: "Curso de modelado y desarrollo de APIs, cubriendo monitoreo, gateways, documentación y optimizaciones", tags:['APIs','Java','Python','Javascript'], docRepo:'API-Course'},
     { title:'Linux for Developers', meta:'General', body:'Curso inicial de Linux.', tags:['Linux'], linkText:"Certificado", link:"https://coursera.org/share/593ba8abb4b3be969cb2f59fd431daeb" },
     { title:'Linux Server Management and Security', meta:'Ciberseguridad', body:'Curso de seguridad en Linux.', tags:['OS','SQL','Databases'],linkText:"Certificado", link:"https://coursera.org/share/6770bf6fd701df4d06230ef2fdd019a2" },
     { title:'Introduction to Databases', meta:'General', body:'Curso inicial de Bases de Datos.', tags:['SQL'], linkText:"Certificado", link:"https://coursera.org/share/934b732b8048ae9f5b41a90240926343" },

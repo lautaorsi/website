@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio</title>
+    <link rel="stylesheet" href="doc_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Geist:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <div class="site-name" id="site-name"></div>
+        <a href="index.html" class="back-to-hub">Volver al Portfolio</a>
+    </div>
+    <nav id="sidebar-nav">
+        <div class="sidebar-section-label">Main</div>
+        <a class="sidebar-item" onclick="nav('home')">Overview</a>
+        
+        <div class="sidebar-section-label">Modules</div>
+        <div id="dynamic-nav"></div> 
+        
+        <div class="sidebar-section-label">Links</div>
+        <a class="sidebar-item" id="github-repo-link" target="_blank">GitHub Repo ↗</a>
+    </nav>
+</aside>
+
+<main class="main">
+    <div class="topbar">
+        <div class="breadcrumb" id="breadcrumb-initial"><span id="breadcrumb-paths"></span><span id="bc-active">Home</span></div>
+    </div>
+
+    <div id="page-home" class="content active md-body">
+        <div style="margin-top: 80px; text-align: left; max-width: 700px;">
+            <h1 style="font-size: 40px; line-height: 1.1;" id="repo-name"></h1>
+            
+        </div>
+    </div>
+
+    <div id="page-notebook" class="content">
+        <div id="my-notebook-container"></div>
+    </div>
+</main>
+
+<aside class="toc">
+    <div class="toc-label">On this page</div>
+    <div id="toc-items"></div>
+</aside>
+
+<script src="doc_script.js"></script>
+</body>
+</html>

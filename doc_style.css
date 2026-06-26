@@ -1,0 +1,176 @@
+/* --- Variables & Themes --- */
+:root {
+  --bg: #050505;
+  --bg-gradient: radial-gradient(circle at 100% 100%, rgba(201, 169, 110, 0.18) 0%, rgba(5, 5, 5, 0) 90%);
+  --sidebar-bg: #0a0a0a;
+  --sidebar-text: #a1a1aa;
+  --sidebar-active: #ffffff;
+  --sidebar-hover: #1a1a1a;
+  --sidebar-accent: #c9a96e;
+  --text: #e4e4e7;
+  --text2: #a1a1aa;
+  --text3: #71717a;
+  --accent: #c9a96e;
+  --border: #27272a;
+  --card-bg: rgba(18, 18, 18, 0.7);
+  --code-bg: #000000;
+  --radius: 12px;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-display: 'Geist', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --sidebar-w: 280px;
+  --toc-w: 240px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: fixed; top: 0; left: 0; bottom: 0;
+  width: var(--sidebar-w); overflow-y: auto; 
+  z-index: 1000; display: flex; flex-direction: column;
+}
+
+.sidebar-header { padding: 32px 24px; border-bottom: 1px solid var(--border); }
+.site-name { font-family: var(--font-display); font-weight: 600; font-size: 20px; color: #fff; }
+.sidebar-section-label { font-size: 18px; text-transform: uppercase; letter-spacing: 1px; color: var(--text3); padding: 24px 24px 8px; }
+
+.folder-label, .sidebar-item {
+  padding: 10px 24px; font-size: 16px; color: var(--sidebar-text);
+  cursor: pointer; display: flex; align-items: center; gap: 12px;
+  transition: all 0.2s ease; text-decoration: none;
+}
+
+.sidebar-item:hover, .folder-label:hover { background: var(--sidebar-hover); color: #fff; }
+.folder-index { font-style: italic; font-size: 15px; opacity: 0.7; }
+
+.arrow {
+  width: 6px; height: 6px; border-right: 1.5px solid var(--sidebar-text);
+  border-bottom: 1.5px solid var(--sidebar-text); transform: rotate(-45deg); transition: 0.2s;
+}
+.folder-label.open .arrow { transform: rotate(45deg); }
+.folder-content { display: none; }
+
+/* --- Main Layout --- */
+.main { margin-left: var(--sidebar-w); transition: margin-right 0.3s ease; min-height: 100vh; }
+.main.has-toc { margin-right: var(--toc-w); }
+
+.topbar {
+  position: sticky; top: 0; background: rgba(5, 5, 5, 0.8);
+  border-bottom: 1px solid var(--border); padding: 0 40px; height: 56px; 
+  display: flex; align-items: center; z-index: 500; backdrop-filter: blur(12px);
+}
+
+.content { padding: 40px; max-width: 1000px; margin: 0 auto; display: none; }
+.content.active { display: block; }
+
+/* --- Notebook Glass Card --- */
+.notebook-card {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  backdrop-filter: blur(20px); overflow: hidden; margin-bottom: 50px;
+}
+
+.nb-row { display: flex; padding: 24px 30px; border-bottom: 1px solid rgba(255,255,255,0.03); }
+.nb-label { width: 65px; flex-shrink: 0; font-family: var(--font-mono); font-size: 10px; color: var(--text3); text-align: right; padding-right: 25px; padding-top: 12px; }
+.nb-content { flex-grow: 1; min-width: 0; }
+.nb-code { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px; font-family: var(--font-mono); font-size: 13px; overflow-x: auto; margin-bottom: 20px; }
+.nb-img { background: white; padding: 15px; border-radius: 8px; margin: 15px 0; max-width: 100%; }
+
+/* --- Tables (Fixed) --- */
+.nb-html-output { width: 100%; overflow-x: auto; margin: 15px 0; }
+.nb-html-output table { border-collapse: collapse; width: auto; min-width: 100%; font-size: 13px; color: var(--text2); border: 1px solid var(--border); }
+.nb-html-output th, .nb-html-output td { padding: 8px 12px; border: 1px solid var(--border); text-align: left; }
+.nb-html-output th { background: rgba(255, 255, 255, 0.05); color: #fff; }
+
+.nb-output {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text2);
+    white-space: pre-wrap;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 8px;
+    overflow-x: auto;
+}
+
+/* --- TOC --- */
+.toc { 
+  position: fixed; top: 0; right: -240px; bottom: 0; width: var(--toc-w); 
+  padding: 80px 24px; border-left: 1px solid var(--border); 
+  background: rgba(10, 10, 10, 0.4); backdrop-filter: blur(10px);
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.toc.visible { right: 0; }
+.toc-label { font-size: 16px; font-weight: 600; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+.toc-item { 
+  display: block; 
+  padding: 6px 0; 
+  font-size: 16px; 
+  color: var(--text2);       /* was --text3, now uses the lighter muted tone */
+  text-decoration: none; 
+  border-left: 2px solid transparent; 
+  padding-left: 15px; 
+  transition: 0.2s; 
+}
+.toc-item.active { border-left-color: var(--accent); color: var(--accent); }
+.toc-item:hover { color: #fff; }
+
+/* Typography */
+.md-row { display: block; padding-left: 95px; padding-right: 30px; }
+.md-body h1 { font-size: 28px; margin-bottom: 15px; color: #fff; }
+.md-body h2 { font-size: 22px; margin-top: 20px; color: var(--accent); }
+.md-body p { color: var(--text2); margin-bottom: 1rem; font-size:19px;}
+
+
+.md-body a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: rgba(201, 169, 110, 0.4);
+    transition: opacity 0.2s;
+}
+
+.md-body a:hover {
+    opacity: 0.8;
+}
+
+/* Sidebar Back Button to match your Syne font style */
+.back-to-hub {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid rgba(201, 169, 110, 0.2);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-to-hub:hover {
+    background: rgba(201, 169, 110, 0.1);
+    color: #fff;
+}
+
+#page-home h1 { color: var(--text); }
+#page-home p  { color: var(--text2); }
+
+.mermaid-output { margin: 16px 0; text-align: center; }
+.mermaid-output svg { max-width: 100%; height: auto; }

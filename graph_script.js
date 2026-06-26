@@ -157,6 +157,8 @@ function openModal(sectionId, cardIndex) {
   const bodyEl  = document.getElementById('modal-body');
   const tagsEl  = document.getElementById('modal-tags');
   const btn     = document.getElementById('modal-link-btn');
+  const docsBtn = document.getElementById('modal-docs-btn'); 
+
 
   metaEl.innerText  = card.meta || '';
   titleEl.innerText = card.title;
@@ -172,6 +174,13 @@ function openModal(sectionId, cardIndex) {
     btn.innerText = card.linkText || 'Ver más';
   } else {
     btn.style.display = 'none';
+  }
+
+  if (card.docRepo) {
+    docsBtn.href = `documentation.html#${card.docRepo}`;
+    docsBtn.style.display = 'inline-flex';
+  } else {
+      docsBtn.style.display = 'none';
   }
 
   document.getElementById('card-modal-overlay').classList.add('active');
