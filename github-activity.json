@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "Worked on tp",
+    "date": "2026-07-01 19:15:28 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/4174a3b266...331c3cfd3a"
+  },
+  {
+    "repo": "Facultad",
     "message": "chapter 5 &amp; 6",
     "date": "2026-06-26 19:47:18 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/dc7ed212b4...4174a3b266"
@@ -52,11 +58,5 @@
     "message": "Changed a random function I saw",
     "date": "2026-06-24 00:18:17 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/9d195f3112...d94567a658"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Added ppl stuff",
-    "date": "2026-06-23 20:27:11 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/b12b2d22aa...9d195f3112"
   }
 ]
