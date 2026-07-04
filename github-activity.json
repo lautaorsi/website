@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "PPL tp",
+    "date": "2026-07-04 20:52:47 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/331c3cfd3a...fd5ba9209c"
+  },
+  {
+    "repo": "Facultad",
     "message": "Worked on tp",
     "date": "2026-07-01 19:15:28 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/4174a3b266...331c3cfd3a"
@@ -52,11 +58,5 @@
     "message": "Sequential Monte Carlo",
     "date": "2026-06-24 01:34:54 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/d94567a658...1e34db6075"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Changed a random function I saw",
-    "date": "2026-06-24 00:18:17 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/9d195f3112...d94567a658"
   }
 ]
