@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "Finished tp, added diagram (TODO)",
+    "date": "2026-07-05 21:19:32 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/04e162f66f...c751f858a4"
+  },
+  {
+    "repo": "Facultad",
     "message": "Fixed loosely typed objects",
     "date": "2026-07-05 00:55:52 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/07e5f783d8...04e162f66f"
@@ -52,11 +58,5 @@
     "message": "Started working on autoencoders",
     "date": "2026-06-26 00:11:03 UTC",
     "url": "https://github.com/lautaorsi/AI-IBM-COURSE/compare/daae6ebd88...82b5bd5469"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Added classes",
-    "date": "2026-06-25 12:34:24 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/1e34db6075...4f3f9d0082"
   }
 ]
