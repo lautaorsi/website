@@ -1,5 +1,11 @@
 [
   {
+    "repo": "ppls26-tp",
+    "message": "Polished comments and READMEs",
+    "date": "2026-07-06 15:48:11 UTC",
+    "url": "https://github.com/lautaorsi/ppls26-tp/compare/1e6cd00764...0db062c76b"
+  },
+  {
     "repo": "lautaorsi created a branch",
     "message": "No message",
     "date": "2026-07-05 22:11:54 UTC",
@@ -52,11 +58,5 @@
     "message": "Removed duplicates",
     "date": "2026-06-26 02:17:53 UTC",
     "url": "https://github.com/lautaorsi/API-Course/compare/c8cbffc3de...8574deb584"
-  },
-  {
-    "repo": "API-Course",
-    "message": "Renamed course folders",
-    "date": "2026-06-26 00:32:34 UTC",
-    "url": "https://github.com/lautaorsi/API-Course/compare/a7b3d2e0b7...c8cbffc3de"
   }
 ]
