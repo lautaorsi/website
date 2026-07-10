@@ -1,6 +1,18 @@
 [
   {
     "repo": "ppls26-tp",
+    "message": "Fixed readme",
+    "date": "2026-07-10 19:55:11 UTC",
+    "url": "https://github.com/lautaorsi/ppls26-tp/compare/2bd5f8dfba...4ddcce3c15"
+  },
+  {
+    "repo": "ppls26-tp",
+    "message": "Added controller readme",
+    "date": "2026-07-10 18:46:27 UTC",
+    "url": "https://github.com/lautaorsi/ppls26-tp/compare/97d3460f2f...2bd5f8dfba"
+  },
+  {
+    "repo": "ppls26-tp",
     "message": "Added project",
     "date": "2026-07-10 16:50:01 UTC",
     "url": "https://github.com/lautaorsi/ppls26-tp/compare/5ccd17faaa...97d3460f2f"
@@ -46,17 +58,5 @@
     "message": "Finished tp, added diagram (TODO)",
     "date": "2026-07-05 21:19:32 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/04e162f66f...c751f858a4"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Fixed loosely typed objects",
-    "date": "2026-07-05 00:55:52 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/07e5f783d8...04e162f66f"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Working version",
-    "date": "2026-07-05 00:42:08 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/fd5ba9209c...07e5f783d8"
   }
 ]
