@@ -1,6 +1,12 @@
 [
   {
     "repo": "Facultad",
+    "message": "ECI day 3",
+    "date": "2026-07-29 23:07:06 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/6f814722a4...cd75f4e15a"
+  },
+  {
+    "repo": "Facultad",
     "message": "Added small cryptology intro",
     "date": "2026-07-27 22:26:45 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/c53a971146...6f814722a4"
@@ -52,11 +58,5 @@
     "message": "Fixed Message README",
     "date": "2026-07-06 15:53:11 UTC",
     "url": "https://github.com/lautaorsi/ppls26-tp/compare/0db062c76b...014737beab"
-  },
-  {
-    "repo": "ppls26-tp",
-    "message": "Polished comments and READMEs",
-    "date": "2026-07-06 15:48:11 UTC",
-    "url": "https://github.com/lautaorsi/ppls26-tp/compare/1e6cd00764...0db062c76b"
   }
 ]
