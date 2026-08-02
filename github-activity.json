@@ -1,6 +1,30 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Renamed notebook (again) and added README",
+    "date": "2026-08-02 04:45:59 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/2634d49c42...69fcf0e228"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Changed notebook name",
+    "date": "2026-08-02 04:30:59 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/7d3b761e32...2634d49c42"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Did histograms &amp; small samples",
+    "date": "2026-08-02 04:19:00 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/0c15e0fa6e...7d3b761e32"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Added gitignore",
+    "date": "2026-08-02 04:18:19 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/944a80032e...0c15e0fa6e"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Update README.md",
     "date": "2026-07-31 16:59:45 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/461f6c68aa...944a80032e"
@@ -34,29 +58,5 @@
     "message": "Added ECIs",
     "date": "2026-07-27 22:02:42 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/c751f858a4...c53a971146"
-  },
-  {
-    "repo": "ppls26-tp",
-    "message": "Fixed readme",
-    "date": "2026-07-10 19:55:11 UTC",
-    "url": "https://github.com/lautaorsi/ppls26-tp/compare/2bd5f8dfba...4ddcce3c15"
-  },
-  {
-    "repo": "ppls26-tp",
-    "message": "Added controller readme",
-    "date": "2026-07-10 18:46:27 UTC",
-    "url": "https://github.com/lautaorsi/ppls26-tp/compare/97d3460f2f...2bd5f8dfba"
-  },
-  {
-    "repo": "ppls26-tp",
-    "message": "Added project",
-    "date": "2026-07-10 16:50:01 UTC",
-    "url": "https://github.com/lautaorsi/ppls26-tp/compare/5ccd17faaa...97d3460f2f"
-  },
-  {
-    "repo": "ppls26-tp",
-    "message": ".",
-    "date": "2026-07-10 16:48:48 UTC",
-    "url": "https://github.com/lautaorsi/ppls26-tp/compare/8eab7957b9...5ccd17faaa"
   }
 ]
