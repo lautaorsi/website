@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Worked on centralized baseline",
+    "date": "2026-08-09 21:37:18 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/ec91acb53d...7049f63ede"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Worked on centralized baseline model",
     "date": "2026-08-05 01:27:54 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/69fcf0e228...ec91acb53d"
@@ -52,11 +58,5 @@
     "message": "ECI day 3",
     "date": "2026-07-29 23:07:06 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/6f814722a4...cd75f4e15a"
-  },
-  {
-    "repo": "Facultad",
-    "message": "Added small cryptology intro",
-    "date": "2026-07-27 22:26:45 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/c53a971146...6f814722a4"
   }
 ]
