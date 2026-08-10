@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Worked on local models",
+    "date": "2026-08-10 21:53:50 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/7049f63ede...eee99e7074"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Worked on centralized baseline",
     "date": "2026-08-09 21:37:18 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/ec91acb53d...7049f63ede"
@@ -52,11 +58,5 @@
     "message": "ECI day 3&amp;4",
     "date": "2026-07-31 16:56:18 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/cd75f4e15a...e50bda3e74"
-  },
-  {
-    "repo": "Facultad",
-    "message": "ECI day 3",
-    "date": "2026-07-29 23:07:06 UTC",
-    "url": "https://github.com/lautaorsi/Facultad/compare/6f814722a4...cd75f4e15a"
   }
 ]
