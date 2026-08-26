@@ -1,6 +1,18 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Rearranged file",
+    "date": "2026-08-26 02:11:09 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/fd0cf94855...fe83db20dc"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Added EMD metric",
+    "date": "2026-08-26 01:32:31 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/9497d3839e...fd0cf94855"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Changed iteration algorithm",
     "date": "2026-08-22 23:53:38 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/7b11d4b657...9497d3839e"
@@ -46,17 +58,5 @@
     "message": "Changed notebook name",
     "date": "2026-08-02 04:30:59 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/7d3b761e32...2634d49c42"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Did histograms &amp; small samples",
-    "date": "2026-08-02 04:19:00 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/0c15e0fa6e...7d3b761e32"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Added gitignore",
-    "date": "2026-08-02 04:18:19 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/944a80032e...0c15e0fa6e"
   }
 ]
