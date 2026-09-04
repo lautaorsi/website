@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Started testing aggregation strategies, TODO",
+    "date": "2026-09-02 20:56:52 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/5aa3667307...cce8d7c726"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Added index, reshaped file",
     "date": "2026-08-30 03:06:37 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/e2129466fd...6900fd0640"
@@ -52,11 +58,5 @@
     "message": "Worked on local models",
     "date": "2026-08-10 21:53:50 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/7049f63ede...eee99e7074"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Worked on centralized baseline",
-    "date": "2026-08-09 21:37:18 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/ec91acb53d...7049f63ede"
   }
 ]
