@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Continued working on aggregation functions",
+    "date": "2026-09-13 03:49:51 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/443f6958ba...20feba3ecb"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Aggregation strategies testing",
     "date": "2026-09-09 18:29:38 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/cce8d7c726...e68fb30ef6"
