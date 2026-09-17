@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Grid-searched best mu for fedProx, finished fedAvg models, centralize…",
+    "date": "2026-09-16 02:40:18 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/20feba3ecb...7496d963b9"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Worked on aggregation strategies",
     "date": "2026-09-12 18:01:50 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/e68fb30ef6...443f6958ba"
@@ -52,11 +58,5 @@
     "message": "Added EMD metric",
     "date": "2026-08-26 01:32:31 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/9497d3839e...fd0cf94855"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Changed iteration algorithm",
-    "date": "2026-08-22 23:53:38 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/7b11d4b657...9497d3839e"
   }
 ]
