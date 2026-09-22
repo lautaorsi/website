@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Fixed fedProx",
+    "date": "2026-09-22 00:29:38 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/1665e28b13...a7a0d649f0"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Worked on aggregation strategies",
     "date": "2026-09-20 22:22:31 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/a03eb6b5cc...1665e28b13"
@@ -52,11 +58,5 @@
     "message": "Added PSI, fixed some plots, polished code",
     "date": "2026-08-30 01:22:59 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/fe83db20dc...c3f8b71215"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Finished IID-ness quantification",
-    "date": "2026-08-30 02:38:40 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/c3f8b71215...e2129466fd"
   }
 ]
