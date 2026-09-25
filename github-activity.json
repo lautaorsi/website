@@ -1,6 +1,12 @@
 [
   {
     "repo": "Federated-Learning",
+    "message": "Finished aggregation strategies except for FedPer",
+    "date": "2026-09-25 03:20:03 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/a7a0d649f0...d42022475e"
+  },
+  {
+    "repo": "Federated-Learning",
     "message": "Fixed fedProx",
     "date": "2026-09-22 00:29:38 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/1665e28b13...a7a0d649f0"
@@ -52,11 +58,5 @@
     "message": "Added index, reshaped file",
     "date": "2026-08-30 03:06:37 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/e2129466fd...6900fd0640"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Added PSI, fixed some plots, polished code",
-    "date": "2026-08-30 01:22:59 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/fe83db20dc...c3f8b71215"
   }
 ]
