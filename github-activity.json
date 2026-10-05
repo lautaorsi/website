@@ -52,11 +52,5 @@
     "message": "Aggregation strategies testing",
     "date": "2026-09-09 18:29:38 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/cce8d7c726...e68fb30ef6"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Started testing aggregation strategies, TODO",
-    "date": "2026-09-02 20:56:52 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/5aa3667307...cce8d7c726"
   }
 ]
