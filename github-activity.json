@@ -34,11 +34,5 @@
     "message": "Grid-searched best mu for fedProx, finished fedAvg models, centralize…",
     "date": "2026-09-16 02:40:18 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/20feba3ecb...7496d963b9"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Worked on aggregation strategies",
-    "date": "2026-09-12 18:01:50 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/e68fb30ef6...443f6958ba"
   }
 ]
