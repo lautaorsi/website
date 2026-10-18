@@ -22,11 +22,5 @@
     "message": "Worked on aggregation strategies",
     "date": "2026-09-20 22:22:31 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/a03eb6b5cc...1665e28b13"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Performed grid-search for FedProx &amp; FedAvgM, built models for all alphas",
-    "date": "2026-09-17 21:56:40 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/7496d963b9...a03eb6b5cc"
   }
 ]
