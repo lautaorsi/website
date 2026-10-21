@@ -28,11 +28,5 @@
     "message": "Fixed fedProx",
     "date": "2026-09-22 00:29:38 UTC",
     "url": "https://github.com/lautaorsi/Federated-Learning/compare/1665e28b13...a7a0d649f0"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Worked on aggregation strategies",
-    "date": "2026-09-20 22:22:31 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/a03eb6b5cc...1665e28b13"
   }
 ]
