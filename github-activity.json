@@ -1,45 +1,9 @@
 [
   {
-    "repo": "hackaton",
-    "message": "Restructured components",
-    "date": "2026-10-24 05:06:21 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/6d65a629a4...89b4127e7a"
-  },
-  {
-    "repo": "hackaton",
-    "message": "server sided calendar",
-    "date": "2026-10-24 03:20:44 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/1f9a9eafed...6d65a629a4"
-  },
-  {
-    "repo": "hackaton",
-    "message": "server",
-    "date": "2026-10-24 00:18:31 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/25e3dda551...26c4421dfd"
-  },
-  {
-    "repo": "hackaton",
-    "message": "cleaned repo",
-    "date": "2026-10-24 00:35:32 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/26c4421dfd...882dc5c51d"
-  },
-  {
     "repo": "Facultad",
     "message": "Added exercises and finished a few",
     "date": "2026-10-23 03:02:39 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/318e166c28...9e755093cb"
-  },
-  {
-    "repo": "hackaton",
-    "message": "gitignore",
-    "date": "2026-10-23 19:29:27 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/26bf9e4ce2...b8fc1ed87f"
-  },
-  {
-    "repo": "hackaton",
-    "message": "cache",
-    "date": "2026-10-23 19:30:37 UTC",
-    "url": "https://github.com/lautaorsi/hackaton/compare/b8fc1ed87f...1b80d21c31"
   },
   {
     "repo": "Facultad",
@@ -58,5 +22,23 @@
     "message": "Added old ppl prroject",
     "date": "2026-10-17 22:41:52 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/50f863590b...5b9c84b35a"
+  },
+  {
+    "repo": "Facultad",
+    "message": "Added some exercises",
+    "date": "2026-10-17 22:29:51 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/e50bda3e74...50f863590b"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Finished all models but fedPer",
+    "date": "2026-09-29 20:19:15 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/d42022475e...7f95738b21"
+  },
+  {
+    "repo": "Federated-Learning",
+    "message": "Finished aggregation strategies except for FedPer",
+    "date": "2026-09-25 03:20:03 UTC",
+    "url": "https://github.com/lautaorsi/Federated-Learning/compare/a7a0d649f0...d42022475e"
   }
 ]
