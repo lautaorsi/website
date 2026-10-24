@@ -1,5 +1,17 @@
 [
   {
+    "repo": "Facultad",
+    "message": "Added exercises and finished a few",
+    "date": "2026-10-23 03:02:39 UTC",
+    "url": "https://github.com/lautaorsi/Facultad/compare/318e166c28...9e755093cb"
+  },
+  {
+    "repo": "hackaton",
+    "message": "gitignore",
+    "date": "2026-10-23 19:29:27 UTC",
+    "url": "https://github.com/lautaorsi/hackaton/compare/26bf9e4ce2...b8fc1ed87f"
+  },
+  {
     "repo": "hackaton",
     "message": "cache",
     "date": "2026-10-23 19:30:37 UTC",
