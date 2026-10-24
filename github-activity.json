@@ -1,6 +1,12 @@
 [
   {
     "repo": "hackaton",
+    "message": "server sided calendar",
+    "date": "2026-10-24 03:20:44 UTC",
+    "url": "https://github.com/lautaorsi/hackaton/compare/1f9a9eafed...6d65a629a4"
+  },
+  {
+    "repo": "hackaton",
     "message": "server",
     "date": "2026-10-24 00:18:31 UTC",
     "url": "https://github.com/lautaorsi/hackaton/compare/25e3dda551...26c4421dfd"
@@ -52,11 +58,5 @@
     "message": "Added some exercises",
     "date": "2026-10-17 22:29:51 UTC",
     "url": "https://github.com/lautaorsi/Facultad/compare/e50bda3e74...50f863590b"
-  },
-  {
-    "repo": "Federated-Learning",
-    "message": "Finished all models but fedPer",
-    "date": "2026-09-29 20:19:15 UTC",
-    "url": "https://github.com/lautaorsi/Federated-Learning/compare/d42022475e...7f95738b21"
   }
 ]
